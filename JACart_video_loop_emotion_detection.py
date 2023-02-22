@@ -12,7 +12,7 @@ vidFile = 'E:\jmuSpring2023\IT445\newTestSpring_2023-02-14-10-21-00__passenger_c
 analyzedFramesList = []
 
 # number of frames between emotion detection tests
-frameInterval = 500
+frameInterval = 50
 
 # load video file
 vid = cv2.VideoCapture(vidFile)
