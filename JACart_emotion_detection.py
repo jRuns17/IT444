@@ -5,10 +5,9 @@ import os
 
 
 # Load and display image
-img = cv2.imread('E:\jmuSpring2023\IT445\cartPassenger.PNG')
+img = cv2.imread('E:\jmuSpring2023\445 presentation 1\cartPassenger.PNG')
 # img = cv2.imread('E:\jmuSpring2023\IT445\myHappyEmotion.jpg')
-plt.imshow(img[:,:,::-1])
-plt.show()
+
 
 # Analyze and print results
 print("0")
