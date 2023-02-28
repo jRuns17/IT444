@@ -11,7 +11,7 @@ import time
 analyzedFramesList = []
 
 # number of frames between emotion detection tests
-frameInterval = 30
+frameInterval = 15
 
 # load video file
 vidFile = cv2.VideoCapture('E:/jmuSpring2023/IT445/newTestSpring_2023-02-14-10-21-00__passenger_cam_passenger_left.mp4')
