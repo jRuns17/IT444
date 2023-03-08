@@ -1,5 +1,4 @@
-# IT444
-Capstone project
+# IT444 - Capstone project
 This repository is storing my python scripts relating to my senior capstone project at JMU. In addition to my senior capstone project class,
 I take part in "IT480 - Autonomous Vehicle" at the same time. This class has several teams working on different aspects of an autonomous golf cart.
 My piece of this project is to utilize the ZED cameras that face the cart passengers to analyze their emotions. My team will collect data
