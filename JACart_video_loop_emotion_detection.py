@@ -30,7 +30,7 @@ while vidFile.isOpened():
 
             # Analyze the frame
 
-            # Use the following line when you want all the emotion values
+
             result = DeepFace.analyze(analyzedFrame, actions=['emotion'])
 
             # Use the following line when you just want the dominant emotion
