@@ -30,6 +30,8 @@ while True:
             for emotion, value in emotions['emotion'].items():
                 dominant_emotion = max(emotions['emotion'], key=emotions['emotion'].get)
                 cv2.putText(frame, f"{dominant_emotion}: {emotions['emotion'][dominant_emotion]:.2f}", (x, y - 30), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255), 2)
+
+                print(f"Dominant emotion: {dominant_emotion}")
     # Prints an error message if a face couldn't be analyzed
     except ValueError:
         print("Couldn't read face")
